@@ -10,3 +10,4 @@ RUN pip install --no-cache-dir --user docopt==0.6.2
 RUN pip install --no-cache-dir --user requests
 RUN pip install --no-cache-dir awscli
 RUN ssh-keygen -A
+CMD [ "pip", "list" ]
